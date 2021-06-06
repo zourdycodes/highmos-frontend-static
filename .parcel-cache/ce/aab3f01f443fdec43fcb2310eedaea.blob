@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/favicon.HASH_REF_8dff21e09d30b5bc9d248abe47b58bf7.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/index.HASH_REF_d0deca87eede5c046eb7b63af49958a3.css">
+
+    <title>Highmos</title>
+  </head>
+  <body>
+    <div class="hero-area">
+      <header class="header">
+        <img class="header__logo" src="/logo.HASH_REF_92ef0a6b94569b6a419386db7071b2c9.svg" alt="logo">
+        <button class="btn-reservation">
+          <i class="bx bxs-bookmark-star icon"></i>
+          Reservations
+        </button>
+      </header>
+
+      <section class="hero__content">
+        <h1 class="content__heading">
+          Travel is the only thing you buy that makes you richer
+        </h1>
+
+        <button class="play">Adventure</button>
+
+        <form class="booking__content"></form>
+      </section>
+    </div>
+  </body>
+</html>
+<script src="/index.HASH_REF_1cf92b8ac789bf0c8bd4b6d53ebff041.js"></script>

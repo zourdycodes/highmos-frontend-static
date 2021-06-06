@@ -1,0 +1,22 @@
+*,
+*::before,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 62.5%;
+  background: #f2f2f2;
+}
+
+.hero-area {
+  background: url("image-1.HASH_REF_c00141a520c2b90343f46c767ca1885b.png");
+}
+
+/*# sourceMappingURL=index.HASH_REF_d0deca87eede5c046eb7b63af49958a3.css.map */

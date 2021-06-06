@@ -1,0 +1,443 @@
+:root {
+  --primary-color: #fe5303;
+  --heading-font: "Playfair Display", serif;
+
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 74px;
+}
+
+*,
+*::before,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 62.5%;
+  background: #f2f2f2;
+}
+
+::selection {
+  background-color: #fe5303;
+  color: white;
+}
+
+.about {
+  margin: 1rem;
+}
+
+.section-name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+
+.hero-area {
+  /* background: rgba(0, 0, 0, 0.4); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("5fc257b627618701071bee8c6784eaf1");
+  background-position: center;
+  background-size: cover;
+
+  height: 105vh;
+
+  border: 1px solid #000000;
+}
+
+/*  header  */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.btn-reservation {
+  padding: 0.9rem 1.8rem;
+  background: #fe5303;
+  border-radius: 3rem;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-reservation:hover {
+  background: #fe5340;
+}
+
+.icon {
+  font-size: 1.2rem;
+  margin-right: 6px;
+}
+
+/* content hero */
+
+/* .hero__content {
+  
+} */
+
+.content__heading {
+  color: #ffffff;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 85px;
+  letter-spacing: 2px;
+
+  margin: 5rem;
+  padding-right: 35rem;
+}
+
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 5rem;
+  margin-top: -2.5rem;
+}
+
+.play-icon {
+  margin-left: 3rem;
+
+  color: #ffffff;
+
+  font-size: 2.3rem;
+  cursor: pointer;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.play-icon:hover {
+  transition: all 0.3s;
+  color: white;
+}
+
+/* booking form */
+
+.booking__content {
+  /* display: flex; */
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+.booking__inputs {
+  display: flex;
+
+  color: #000;
+}
+
+.booking__input {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  padding: 1.5rem;
+  padding-right: 4rem;
+}
+
+.booking__input:first-child {
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.booking__input:nth-child(3) {
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.booking__input:nth-child(3) {
+  padding-right: 9rem;
+}
+
+.booking__input:not(:last-child) {
+  border-right: 1px solid #f2f2f2;
+}
+
+.booking__input > label {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: -10px;
+  margin-bottom: 1rem;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #bdbdbd;
+}
+
+.booking__input > input {
+  border: none;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.booking__input > select {
+  border: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.booking-btn {
+  margin-left: 1rem;
+
+  padding: 0 2.4rem;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  background: #fe5303;
+  box-shadow: 0px 4px 20px rgba(254, 83, 3, 0.6);
+  border-radius: 12px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.booking-btn:hover {
+  background: rgba(254, 83, 3, 0.8);
+}
+
+/* 
+  MEDIA QUERIES FOR HERO-AREA SECTION
+*/
+
+@media (max-width: 900px) {
+  .btn-reservation {
+    padding: 0.6rem 1.5rem;
+  }
+  .header__logo {
+    height: 30px;
+  }
+
+  .content__heading {
+    margin: 0;
+    padding: 1.5rem;
+    font-size: 50px;
+  }
+  .play {
+    font-size: 16px;
+    margin: 0;
+    padding: 1.5rem;
+  }
+
+  .play-icon {
+    margin-left: 1.3rem;
+    font-size: 2rem;
+  }
+
+  .booking__content {
+    margin: 0;
+    padding: 1.5rem;
+  }
+
+  .booking__input {
+    padding-right: 1rem;
+  }
+
+  .booking__input:nth-child(3) {
+    padding-right: 5.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-area {
+    height: 125vh;
+  }
+  .content__heading {
+    font-size: 35px;
+    line-height: 1.8;
+  }
+
+  .booking__inputs {
+    display: block;
+  }
+
+  .booking__input:first-child {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 12px;
+  }
+
+  .booking__input:nth-child(3) {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 0;
+  }
+
+  .booking-btn {
+    margin: 0;
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-area {
+    height: 130vh;
+  }
+
+  .header {
+    margin: 1rem;
+  }
+
+  .header__logo {
+    height: 30px;
+  }
+
+  .btn-reservation {
+    padding: 0.7rem 1.3rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* ABOUT US */
+
+.about {
+  margin: 1rem;
+  margin-top: 2.5rem;
+}
+
+.section-name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+
+.heading__section {
+  font-size: 2.5rem;
+  font-family: Playfair Display;
+  font-weight: 700;
+}
+
+.about img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.heading__desc {
+  color: #828282;
+  margin: 0;
+  font-size: var(--space-md);
+}
+
+.about-us__content {
+  margin-top: var(--space-lg);
+  display: grid;
+  gap: var(--space-lg);
+}
+
+.about-us__content--left,
+.about-us__content--right {
+  display: grid;
+  gap: var(--space-md);
+}
+
+@media (min-width: 760px) {
+  .about-us__content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-us__content--right img {
+    order: -1;
+  }
+
+  .about-us__content--right p {
+    font-size: 1.6rem;
+  }
+  .about-us__content--left p {
+    font-size: 1.6rem;
+  }
+
+  .about {
+    margin: 3.5rem;
+  }
+
+  .heading__section {
+    font-size: 4rem;
+  }
+}
+
+/* ACCOMODATION */
+
+.accomodations {
+  margin: 1.5rem;
+}
+
+.accomodations__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.text-button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.7rem 0.7rem;
+  color: var(--primary-color);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.stays {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.stay-card__details {
+  margin-top: -3rem;
+  color: white;
+}

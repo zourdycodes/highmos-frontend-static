@@ -1,0 +1,52 @@
+*,
+*::before,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 62.5%;
+  background: #f2f2f2;
+}
+
+.hero-area {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: url("5fc257b627618701071bee8c6784eaf1");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  border: 1px solid #000000;
+}
+
+/*  header  */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.btn-reservation {
+  width: 211.47px;
+  height: 52px;
+  background: #fe5303;
+  border-radius: 3rem;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.icon {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}

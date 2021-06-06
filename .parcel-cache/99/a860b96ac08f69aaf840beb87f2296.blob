@@ -1,0 +1,111 @@
+*,
+*::before,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 62.5%;
+  background: #f2f2f2;
+}
+
+.hero-area {
+  /* background: rgba(0, 0, 0, 0.4); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("5fc257b627618701071bee8c6784eaf1");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  border: 1px solid #000000;
+}
+
+/*  header  */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.btn-reservation {
+  width: 211.47px;
+  height: 52px;
+  background: #fe5303;
+  border-radius: 3rem;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-reservation:hover {
+  background: #fe5340;
+}
+
+.icon {
+  font-size: 1.2rem;
+  margin-right: 6px;
+}
+
+/* content hero */
+
+/* .hero__content {
+} */
+
+.content__heading {
+  color: #ffffff;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 85px;
+
+  margin: 5rem;
+  padding-right: 35rem;
+}
+
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 5rem;
+}
+
+.play > i {
+  margin-left: 3rem;
+  background: #ffffff;
+  padding: 0.35rem;
+  border-radius: 50%;
+  color: #000;
+  font-size: 2.3rem;
+  cursor: pointer;
+}
+
+.play > i:hover {
+  outline-offset: 5rem;
+  outline-color: #ffffff;
+}

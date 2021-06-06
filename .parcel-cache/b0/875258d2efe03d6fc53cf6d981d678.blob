@@ -1,0 +1,67 @@
+*,
+*::before,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 62.5%;
+  background: #f2f2f2;
+}
+
+.hero-area {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: url("image-1.HASH_REF_c00141a520c2b90343f46c767ca1885b.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  border: 1px solid #000000;
+}
+
+/*  header  */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.btn-reservation {
+  width: 211.47px;
+  height: 52px;
+  background: #fe5303;
+  border-radius: 3rem;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-reservation:hover {
+  background: #fe5340;
+}
+
+.icon {
+  font-size: 1.2rem;
+  margin-right: 6px;
+}
+
+/* content hero */
+
+.content__heading {
+  color: #f2f2f2;
+}
+
+/*# sourceMappingURL=index.HASH_REF_d0deca87eede5c046eb7b63af49958a3.css.map */

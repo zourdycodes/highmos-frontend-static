@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/favicon.HASH_REF_8dff21e09d30b5bc9d248abe47b58bf7.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/index.HASH_REF_d0deca87eede5c046eb7b63af49958a3.css">
+
+    <title>Highmos: your travel buddy!</title>
+  </head>
+  <body>
+    <div class="hero-area">
+      <header class="header">
+        <img class="header__logo" src="/logo.HASH_REF_92ef0a6b94569b6a419386db7071b2c9.svg" alt="logo">
+        <button class="btn-reservation">
+          <i class="bx bxs-bookmark-star icon"></i>
+
+          Reservations
+        </button>
+      </header>
+
+      <section class="hero__content">
+        <h1 class="content__heading">
+          Travel is the only thing you buy that makes you richer
+        </h1>
+
+        <button class="play">
+          Adventure
+          <i class="material-icons play-icon">play_circle_filled</i>
+        </button>
+
+        <form class="booking__content">
+          <div class="booking__inputs">
+            <div class="booking__input">
+              <label for="check-in">Check in</label>
+
+              <input type="date" id="check-in">
+            </div>
+            <div class="booking__input">
+              <label for="check-out">Check out</label>
+
+              <input type="date" id="check-out">
+            </div>
+            <div class="booking__input">
+              <label for="persons">Persons</label>
+
+              <select name="personNumber" id="persons">
+                <option value="1">1 Adults</option>
+                <option value="2">2 Adults</option>
+                <option value="3">3 Adults</option>
+                <option value="4">4 Adults</option>
+              </select>
+            </div>
+            <button class="booking-btn">Book Now</button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <!-- ABOUT US -->
+
+    <section class="about">
+      <div class="container">
+        <div class="section-name">about us</div>
+
+        <div class="about-us__content">
+          <div class="about-us__content--left">
+            <h2 class="heading__section">
+              People don’t take trips, trips take people
+            </h2>
+
+            <p class="heading__desc">
+              If you think your country does everything the right way and is
+              revered by other nations, you’ll definitely have those notions put
+              to the test when you enter another country.
+            </p>
+
+            <img src="/image-2.HASH_REF_7200df0a5a549fcb406b08c11098298f.png" alt="about-us-highmos">
+          </div>
+
+          <div class="about-us__content--right">
+            <p class="heading__desc">
+              Have you ever felt the rain on your skin in multiple countries? I
+              have, and I’m here to tell you that it’s always a thrilling
+              sensation each time it happens somewhere new. By traveling, I’ve
+              learned to appreciate things that I would normally ignore.
+            </p>
+
+            <p class="heading__desc">
+              Just like everyone else, I spend some of my days sitting on a
+              couch watching television. Of course, these aren’t the moments
+              that define me, nor are they what I think of when wandering
+              through my favorite memories.
+            </p>
+
+            <img src="/image-3.HASH_REF_3c2f91c7144a9674112aa8316b8dadda.png" alt="about-us-highmos">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCOMODATION -->
+
+    <section class="accomodations">
+      <div class="container">
+        <div class="section-name">accommodations</div>
+
+        <div class="accommodations__header">
+          <h2 class="accomodations__title">Rooms / Suites.</h2>
+
+          <button class="text-button">
+            See all Rooms
+
+            <i class="material-icons">trending_flat</i>
+          </button>
+        </div>
+
+        <div class="stays">
+          <a href="#" class="stay-card stay-card--col-2">
+            <img src="/stay-1.HASH_REF_23e9d6ea9557a59d533de976a03fb87b.png" alt="Stay 1">
+
+            <div class="stay-card__details">
+              <div class="stay-card__name">Sea View Apartment</div>
+
+              <div class="stay-card__price">$549</div>
+            </div>
+          </a>
+
+          <a href="#" class="stay-card stay-card--col-3">
+            <img src="/stay-2.HASH_REF_52b9280cfbcdcd021d88a075c09af8a6.png" alt="Stay 2">
+
+            <div class="stay-card__details">
+              <div class="stay-card__name">Whole House</div>
+
+              <div class="stay-card__price">$349</div>
+            </div>
+          </a>
+
+          <a href="#" class="stay-card">
+            <img src="/stay-3.HASH_REF_e5d407214102aa71bb22c606d08cf67e.png" alt="Stay 3">
+
+            <div class="stay-card__details">
+              <div class="stay-card__name">Minimal Room</div>
+
+              <div class="stay-card__price">$149</div>
+            </div>
+          </a>
+
+          <a href="#" class="stay-card">
+            <img src="/stay-4.HASH_REF_e9084f803af8986ad1664a82d5ae2fd4.png" alt="Stay 4">
+
+            <div class="stay-card__details">
+              <div class="stay-card__name">Rural House</div>
+
+              <div class="stay-card__price">$129</div>
+            </div>
+          </a>
+
+          <a href="#" class="stay-card">
+            <img src="/stay-5.HASH_REF_eba6b921fa1fd7c47babace695ffe553.png" alt="Stay 5">
+
+            <div class="stay-card__details">
+              <div class="stay-card__name">Modern House</div>
+
+              <div class="stay-card__price">$229</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONITALS   -->
+
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-name">testimonials</div>
+
+        <h2 class="section__title">
+          What <strong>clients</strong> say about us.
+        </h2>
+
+        <div class="feedback">
+          <div class="feedback-card">
+            <div class="feedback-card__dialog">
+              <div class="feedback-card__dialog__title">Amazing hotels!</div>
+              <div class="feedback-card__dialog__content">
+                Phasellus ut elementum mauris. Quisque pharetra justo neque, in
+                pulvinar nisl fringilla in. Duis molestie gravida enim. Cras
+                fermentum eros ipsum, posuere rutrum nibh eleifend quis.
+              </div>
+            </div>
+
+            <div class="feedback-card__user">
+              <img src="/person-1.HASH_REF_bd17d8ba88580178c2b19f1e2d624318.png" alt="Person 1">
+
+              <div class="feedback-card__user__details">
+                <div class="feedback-card__user__name">Miller Stark</div>
+                <div class="feedback-card__user__location">from Finland</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="feedback-card">
+            <div class="feedback-card__dialog">
+              <div class="feedback-card__dialog__title">Best experiences!</div>
+              <div class="feedback-card__dialog__content">
+                Phasellus ut elementum mauris. Quisque pharetra justo neque, in
+                pulvinar nisl fringilla in. Duis molestie gravida enim. Cras
+                fermentum eros ipsum, posuere rutrum nibh eleifend quis.
+              </div>
+            </div>
+
+            <div class="feedback-card__user">
+              <img src="/person-2.HASH_REF_a1a83344c693f38bd43861608d37ad08.png" alt="Person 2">
+
+              <div class="feedback-card__user__details">
+                <div class="feedback-card__user__name">Zara Herman</div>
+                <div class="feedback-card__user__location">from Canada</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="feedback-card">
+            <div class="feedback-card__dialog">
+              <div class="feedback-card__dialog__title">
+                I will go back again
+              </div>
+              <div class="feedback-card__dialog__content">
+                Phasellus ut elementum mauris. Quisque pharetra justo neque, in
+                pulvinar nisl fringilla in. Duis molestie gravida enim. Cras
+                fermentum eros ipsum, posuere rutrum nibh eleifend quis.
+              </div>
+            </div>
+
+            <div class="feedback-card__user">
+              <img src="/person-3.HASH_REF_3ebf8c33fb9a390bb71a5e546dbc415e.png" alt="Person 3">
+
+              <div class="feedback-card__user__details">
+                <div class="feedback-card__user__name">Jackson Nguyen</div>
+                <div class="feedback-card__user__location">from Vietnam</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  foooter  -->
+
+    <footer class="footer">
+      <div class="footer-section">
+        Built with ☕
+        <a href="https://zourdydev.vercel.app" target="_blank" rel="noopener noreferrer" class="website__link"></a>
+        Copyright &copy; 2021
+      </div>
+    </footer>
+  </body>
+</html>
+<script src="/index.HASH_REF_1cf92b8ac789bf0c8bd4b6d53ebff041.js"></script>

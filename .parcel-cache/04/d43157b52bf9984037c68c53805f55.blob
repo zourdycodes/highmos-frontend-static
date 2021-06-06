@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="84bd87ce7e719226faed54ebbf40a0c9" type="image/x-icon">
+    <link rel="stylesheet" href="b4a19141b6bc02d2306cb5f72cdb5513">
+
+    <link href="4d252e94c11a33110204b45b2218bfb4" rel="stylesheet">
+
+    <link rel="preconnect" href="4a8a00904bae35c1104942c334d95ef2">
+    <link href="94c35e137545a1d078ffbe749f019803" rel="stylesheet">
+
+    <link rel="preconnect" href="4a8a00904bae35c1104942c334d95ef2">
+    <link href="3f80cd261416bf325167cf29b6764db2" rel="stylesheet">
+
+    <link rel="stylesheet" href="661c608646a6af1bf859c4c7511b5be7">
+
+    <title>Highmos</title>
+  </head>
+  <body>
+    <div class="hero-area">
+      <header class="header">
+        <img class="header__logo" src="0addecf49a9672b82359ecd3f0082a99" alt="logo">
+        <button class="btn-reservation">
+          <i class="bx bxs-bookmark-star icon"></i>
+
+          Reservations
+        </button>
+      </header>
+
+      <section class="hero__content">
+        <h1 class="content__heading">
+          Travel is the only thing you buy that makes you richer
+        </h1>
+
+        <button class="play">
+          Adventure
+          <i class="material-icons play-icon">play_circle_filled</i>
+        </button>
+
+        <form class="booking__content">
+          <div class="booking__inputs">
+            <div class="booking__input">
+              <label for="check-in">Check in</label>
+
+              <input type="date" id="check-in">
+            </div>
+            <div class="booking__input">
+              <label for="check-out">Check out</label>
+
+              <input type="date" id="check-out">
+            </div>
+            <div class="booking__input">
+              <label for="persons">Persons</label>
+
+              <select name="personNumber" id="persons">
+                <option value="1">1 Adults</option>
+                <option value="2">2 Adults</option>
+                <option value="3">3 Adults</option>
+                <option value="4">4 Adults</option>
+              </select>
+            </div>
+            <button class="booking-btn">Book Now</button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <!-- ABOUT US -->
+
+    <section>
+      <div class="container">
+        <div class="section-name">about us</div>
+
+        <h2 class="heading__section">
+          People don’t take trips, trips take people
+        </h2>
+      </div>
+    </section>
+  </body>
+</html>
+<script src="202f65accccb6071212b96a1d3c27081"></script>

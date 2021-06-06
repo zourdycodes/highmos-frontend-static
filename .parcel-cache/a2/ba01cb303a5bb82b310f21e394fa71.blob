@@ -1,0 +1,13 @@
+window.onscroll = () => {
+            if (window.pageYOffset > 50) {
+              document
+                .getElementById("header")
+                .classList.add("top-header--white-background");
+              document.querySelector('.header__logo').classList.add('fill: var(--primary-color);
+      transition: fill 300ms ease-in-out;')
+            } else {
+              document
+                .getElementById("header")
+                .classList.remove("top-header--white-background");
+            }
+          };

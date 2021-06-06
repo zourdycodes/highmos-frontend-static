@@ -1,0 +1,23 @@
+*,
+*::before,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 62.5%;
+  background: #f2f2f2;
+}
+
+.hero-area {
+  background: url("5fc257b627618701071bee8c6784eaf1") center no-repeat;
+  background-size: cover;
+  height: 90vh;
+  filter: grayscale(10%);
+}

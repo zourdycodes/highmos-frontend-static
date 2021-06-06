@@ -1,0 +1,6 @@
+if (window.onscroll > 50) {
+        document
+          .getElementById("header")
+          .classList.add(".top-header--white-background");
+      } else {
+      }
